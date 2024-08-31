@@ -2,21 +2,14 @@
 
 Este projeto utiliza Machine Learning para prever a presença de diabetes com base em um conjunto de dados médicos. Utilizando técnicas de aprendizado supervisionado, como Gradient Boosting, o objetivo é fornecer uma ferramenta útil para identificar possíveis casos de diabetes.
 
-## Tecnologias Utilizadas
+## Resultados
 
-- **Python**: Linguagem de programação utilizada.
-- **Pandas**: Manipulação e análise de dados.
-- **Scikit-learn**: Modelagem e treinamento de algoritmos de aprendizado de máquina.
-- **lightgbm**: Biblioteca que oferece o modelo LGBMClassifier para trainamento utilizando Gradient Boosting
-- **Matplotlib**: Visualização de dados.
-- **NumPy**: Manipulação eficiente de arrays e operações matemáticas.
+A avaliação do modelo é realizada usando **Matriz de Confusão** para visualizar o desempenho do modelo na classificação de casos positivos e negativos.
 
-## Estrutura do Projeto
+![Texto Alternativo](./data/results/matriz-de-confusao.png)
 
-- **`data/`**: Diretório contendo o conjunto de dados utilizado para treinamento e testes.
-- **`notebooks/`**: Jupyter Notebooks com a análise exploratória dos dados.
-- **`src/`**: Scripts e funções principais treinamento de modelos e avaliação.
-- **`requirements`**: Arquivo contendo as dependências do projeto.
+
+Os resultados mostram a eficácia de **90%** do modelo na previsão de diabetes, com uma análise detalhada das previsões e a comparação com os dados reais.
 
 ## Descrição dos Dados
 
@@ -40,20 +33,38 @@ O pré-processamento inclui:
 - **Codificação de variáveis categóricas**: Conversão de variáveis categóricas em valores numéricos.
 - **Normalização dos dados**: Escalonamento das características para melhorar o desempenho dos modelos.
 
-## Avaliação do Modelo
+O gráfico abaixo mostra a correlação entre os dados do dataframe
+
+![Texto Alternativo](./data/results/output.png)
 
 
-A avaliação do modelo é realizada usando:
 
-- **Matriz de Confusão**: Para visualizar o desempenho do modelo na classificação de casos positivos e negativos.
+## Tecnologias Utilizadas
 
-## Resultados
+- **Python**: Linguagem de programação utilizada.
+- **Pandas**: Manipulação e análise de dados.
+- **Scikit-learn**: Modelagem e treinamento de algoritmos de aprendizado de máquina.
+- **lightgbm**: Biblioteca que oferece o modelo LGBMClassifier para trainamento utilizando Gradient Boosting
+- **Matplotlib**: Visualização de dados.
+- **NumPy**: Manipulação eficiente de arrays e operações matemáticas.
 
-Os resultados mostram a eficácia de **90%** do modelo na previsão de diabetes, com uma análise detalhada das previsões e a comparação com os dados reais. A precisão e outras métricas são avaliadas para garantir a robustez do modelo.
+## Estrutura do Projeto
+
+- **`data/`**: Diretório contendo o conjunto de dados utilizado para treinamento e testes.
+- **`notebooks/`**: Jupyter Notebooks com a análise exploratória dos dados.
+- **`src/`**: Scripts e funções principais treinamento de modelos e avaliação.
+- **`requirements`**: Arquivo contendo as dependências do projeto.
+
+
 
 ## Como Usar
 
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/murilorrs/Diabetes-Prediction-System.git)
+   
+2. **Instale as dependências**
+
+   ```bash
+   pip install -r requirements.txt
