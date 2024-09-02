@@ -1,4 +1,4 @@
-# Previsão de Casos de Diabetes com Machine Learning
+# Previsão de Casos de Diabetes com Machine Learning ⚕️
 
 Este projeto utiliza Machine Learning para prever a presença de diabetes com base em um conjunto de dados médicos. Utilizando técnicas de aprendizado supervisionado, como Gradient Boosting, o objetivo é fornecer uma ferramenta útil para identificar possíveis casos de diabetes.
 
@@ -71,7 +71,7 @@ O gráfico abaixo mostra a correlação entre os dados do dataframe
 
 ***
 
-# Diabetes Case Prediction with Machine Learning
+# Diabetes Case Prediction with Machine Learning ⚕️
 
 This project utilizes Machine Learning to predict the presence of diabetes based on a medical dataset. Using supervised learning techniques such as Gradient Boosting, the goal is to provide a useful tool for identifying potential diabetes cases.
 
