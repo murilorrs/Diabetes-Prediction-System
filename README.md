@@ -15,8 +15,8 @@ Os resultados mostram a eficácia de **90%** do modelo na previsão de diabetes,
 
 O conjunto de dados contém informações médicas sobre pacientes, incluindo:
 
-- **gender**: Gênero do paciente (0 para feminino, 1 para masculino
-- **age**: Idade do paciente
+- **gender**: Gênero do paciente (0 para feminino, 1 para masculino)
+- **age**: Idade do pacient
 - **hypertension**: Histórico de hipertensão (0 para não, 1 para sim)
 - **heart_disease**: Histórico de doenças cardíacas (0 para não, 1 para sim)
 - **smoking_history**: Histórico de tabagismo (0 para nunca, 1 para atual, 2 para ex-fumante)
