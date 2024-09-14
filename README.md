@@ -2,14 +2,14 @@
 
 Este projeto utiliza Machine Learning para prever a presença de diabetes com base em um conjunto de dados médicos. Utilizando técnicas de aprendizado supervisionado, como Gradient Boosting, o objetivo é fornecer uma ferramenta útil para identificar possíveis casos de diabetes.
 
+São utilizados alguns modelos de Inteligência Artificial para poder determinar qual o mais eficienete para o caso.
+
 ## Resultados
 
-A avaliação do modelo é realizada usando **Matriz de Confusão** para visualizar o desempenho do modelo na classificação de casos positivos e negativos.
+As avaliações do modelo são realizadas usando **Matriz de Confusão** para visualizar o desempenho do modelo na classificação de casos positivos e negativos.
 
 ![Texto Alternativo](./data/results/matriz-de-confusao.png)
 
-
-Os resultados mostram a eficácia de **90%** do modelo na previsão de diabetes, com uma análise detalhada das previsões e a comparação com os dados reais.
 
 ## Descrição dos Dados
 
